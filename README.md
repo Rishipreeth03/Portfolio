@@ -19,6 +19,12 @@ I am Rishipreeth, a third-year student at CVR College of Engineering, Hyderabad.
 
 ---
 
+## 🚀 Live Demo  
+Check out the live version of my portfolio here:  
+👉 [Personal Portfolio](https://rishipreeth03.github.io/Portfolio/)  
+
+---
+
 ## 🛠️ Tech Stack  
 The portfolio is built using:  
 - **Frontend**: HTML, CSS, JavaScript, React.js  
