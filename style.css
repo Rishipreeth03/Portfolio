@@ -161,7 +161,7 @@ section {
 }
 
 /* PROFILE SECTION */
-
+/* PROFILE SECTION */
 #profile {
   display: flex;
   align-items: center;
@@ -174,8 +174,10 @@ section {
   border-radius: 20px;
   background-color: #f5f5f5; /* Light background for contrast */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
+/* Profile Picture */
 .section__pic-container {
   flex: 1;
   max-width: 200px; /* Adjust width to keep it proportional */
@@ -191,6 +193,7 @@ section {
   border: 3px solid #333; /* Optional: Add border for definition */
 }
 
+/* Profile Text */
 .section__text {
   flex: 2;
   text-align: center;
@@ -200,12 +203,7 @@ section {
   margin: 5px 0;
 }
 
-.btn-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
+/* Social Links */
 #socials-container {
   display: flex;
   justify-content: center;
@@ -213,11 +211,36 @@ section {
   margin-top: 10px;
 }
 
-.icon {
-  width: 30px;
-  cursor: pointer;
+/* Profile Buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 1rem;
 }
 
+/* Down Arrow at Bottom Right */
+.down-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  animation: bounce 1.5s infinite;
+}
+
+.down-arrow:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Bouncing Effect */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
 
 /* ICONS */
 
